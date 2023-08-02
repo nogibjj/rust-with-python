@@ -15,10 +15,14 @@ lint:
 test:
 	cargo test --quiet
 
+format-check:
+	#cargo fmt -- --check
+	./format-check.sh
 run:
 	cargo run
 
 release:
-	cargo build --release
+	#cargo build --release
+	echo "release"
 
 all: format lint test run
