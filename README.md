@@ -1,6 +1,11 @@
-# rust-new-project-template
-A good starting point for a new Rust project
+# Using Rust with Python
+This repo covers the following topics
 
-## References
-
-* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+## Sections One
+* Introduction to Rust and Python Integration & PyO3 Basics
+* Advanced Rust and Python Mixing Techniques
+* Python and Rust Command-Line Tools
+## Section Two
+* Automating with CI/CD Tools
+* Automating with Containerization
+* Packaging and Distributing
