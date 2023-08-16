@@ -1,0 +1,11 @@
+[package]
+name = "marco-python-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# uses clap derive
+[dependencies]
+clap = { version = "4.3.21", features = ["derive"] }
+pyo3 = "0.19.0"
