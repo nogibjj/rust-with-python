@@ -11,3 +11,20 @@ Cargo.lock
 
 # ignore all .so files in subdirectories
 **/*.so
+
+# Ignore all rust artifacts
+**/target/**
+
+# Ignore all python artifacts
+**/dist/**
+**/build/**
+**/.tox/**
+**/.pytest_cache/**
+**/.mypy_cache/**
+**/.coverage/**
+**/.eggs/**
+
+# Ignore all Py03 artifacts including .so
+**/__pycache__/**
+**/*.py[cod]**
+**/*.so**
