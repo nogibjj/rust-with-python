@@ -22,3 +22,25 @@ def marco(input):
         Ok(marco_result.to_string())
     })
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_marco_python() {
+        let input = "marco";
+        let expected_output = "python".to_string();
+        let output = marco_python(input).unwrap();
+        assert_eq!(output, expected_output, "Failed for input: {}", input);
+    }
+    
+    #[test]
+    fn test_no_python() {
+        let input = "not_marco";
+        let expected_output = "no python".to_string();
+        let output = marco_python(input).unwrap();
+        assert_eq!(output, expected_output, "Failed for input: {}", input);
+    }
+}
+

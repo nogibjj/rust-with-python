@@ -11,5 +11,8 @@ lint:
 format:
 	cargo fmt
 
+test:
+	cargo test
+
 run:
 	cargo run
