@@ -16,6 +16,7 @@ struct Cli {
 
 fn main() {
     let _args = Cli::parse();
-    calculate().unwrap();
+    let result = calculate().unwrap();
+    println!("{:?}", result);
 }
 

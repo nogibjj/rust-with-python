@@ -30,7 +30,7 @@ use polars::prelude::*;
 
 // Define the main function that returns a Result type.
 // If everything is Ok, it returns `()`, otherwise it returns a `PolarsError`.
-pub fn calculate() -> Result<(), PolarsError> {
+pub fn calculate() -> Result<DataFrame, PolarsError> {
     
     // Read the CSV file located at "src/data/iris.csv"
     // Assume the CSV has headers.
@@ -54,10 +54,8 @@ pub fn calculate() -> Result<(), PolarsError> {
         
         // Trigger computation and collect the result into a DataFrame
         .collect()?;
-    
-    // Print the resulting DataFrame
-    println!("{:?}", df);
-    
+        
     // Return Ok to signify that the program has executed successfully
-    Ok(())
+    Ok(df)
 }
+
