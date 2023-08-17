@@ -9,3 +9,7 @@ edition = "2021"
 clap = { version = "4.3.22", features = ["derive"] }
 polars = { version = "0.32.1", features = ["lazy"] }
 criterion = "0.5"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
