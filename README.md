@@ -9,3 +9,6 @@ This repo covers the following topics
 * Advanced Rust and Python Mixing Techniques
 * Python and Rust Command-Line Tools
 
+### References
+
+* [Python Projects with Ruff](https://github.com/nogibjj/python-ruff-template/tree/main#template-for-python-projects-with-ruff-linter)
