@@ -19,3 +19,7 @@ test:
 run:
 	#runs the cli
 	cargo run --
+
+bench:
+	#view the result:  target/criterion/report/index.html
+	cargo bench
