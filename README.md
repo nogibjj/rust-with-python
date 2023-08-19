@@ -12,3 +12,4 @@ This repo covers the following topics
 ### References
 
 * [Python Projects with Ruff](https://github.com/nogibjj/python-ruff-template/tree/main#template-for-python-projects-with-ruff-linter)
+* [Rust Code Analysis](https://mozilla.github.io/rust-code-analysis/languages.html)
